@@ -18,8 +18,8 @@ ckeditor = CKEditor(app)
 Bootstrap(app)
 gravatar = Gravatar(app, size=100, rating='g', default='retro', force_default=False, force_lower=False, use_ssl=False, base_url=None)
 
-##CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://postgres:OLKBAMDcCcGXKJchxrgQGYbsggpKYafR@roundhouse.proxy.rlwy.net:15941/railway"
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:HtMZxORpbGRDEOqBEuSUNFVdxBAJtNXc@roundhouse.proxy.rlwy.net:53163/railway'
 
 db = SQLAlchemy()
 db.init_app(app)
